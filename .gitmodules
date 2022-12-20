@@ -1,0 +1,3 @@
+[submodule "tags"]
+	path = tags
+	url = https://github.com/nicktrandafil/tags.git
