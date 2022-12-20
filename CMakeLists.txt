@@ -59,3 +59,8 @@ install(TARGETS TagTest
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(TagTest)
 endif()
+
+add_subdirectory(Qt6-Tags-Widget)
+include_directories(Qt6-Tags-Widget/include)
+target_link_libraries(TagTest PRIVATE tags)
+
